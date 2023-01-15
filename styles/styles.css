@@ -44,6 +44,7 @@ header{
     display: flex;
     list-style: none;
     gap: 75px;
+    cursor: pointer;
 }
 .nav-items li{
     color: #424242;
@@ -75,6 +76,7 @@ header{
     padding: 21px 24px;
     margin-bottom: 70px;
     margin-top: 32px;
+    cursor: pointer;
 }
 .banner-images img{
     width: 100%;
