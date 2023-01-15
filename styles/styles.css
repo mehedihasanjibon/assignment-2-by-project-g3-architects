@@ -1,4 +1,6 @@
-
+/*----------
+    common styles 
+------------*/
 body{
     margin: 0;
     padding: 0;
@@ -48,12 +50,14 @@ header{
     font-weight: 500;
     font-size: 18px;
 }
+/* header style end  */
 
-/* banner style start  */
+/* ----------
+    banner style start 
+------------- */
 .banner{
     text-align: center;
 }
-
 .banner-title{
     color: #131313;
     font-weight: 700;
@@ -61,13 +65,6 @@ header{
     line-height: 75px;
     margin-top: 100px;
 }
-/* .banner-sub-title{
-    color: #727272;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-} */
-
 .btn-primary{
     background: #FF900E;
     color: #ffffff;
@@ -79,37 +76,37 @@ header{
     margin-bottom: 70px;
     margin-top: 32px;
 }
-.banner-images{
-}
 .banner-images img{
     width: 100%;
 }
-/* -------------
-    header styles end
-----------------*/
-aside{
+/*  header & banner styles end */
+
+/* ---------
+article styles start  
+------------*/
+article{
    margin-top: 85px; 
 }
-.aside-left{
+.article-left{
     display: flex;
     align-items: center;
 }
-.aside-img{
+.article-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.aside-img img{
+.article-img img{
     margin: 24px;
 }
-.aside-right{
+.article-right{
     margin-left: 73px;
 }
-.aside-right{
+.article-right{
     font-weight: 500;
     font-size: 45px;
     line-height: 53px;
 }
-.aside-title{
+.article-title{
     margin-bottom: 24px;
 }
 .text-color1{
@@ -121,12 +118,8 @@ aside{
 .text-color3{
     color: #FF900E;
 }
-/* .aside-sub-title{
-    color: #727272;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-} */
+/* article style end  */
+
 
 main{
     margin-top: 130px;
