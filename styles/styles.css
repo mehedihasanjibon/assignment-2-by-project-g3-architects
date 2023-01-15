@@ -231,4 +231,26 @@ main{
     font-size: 20px;
 }
 
-
+/*--------------
+    sponspors-parts styles start 
+----------------*/
+.Sponspors-parts{
+    margin-top: 180px;
+}
+.Sponspors-part{
+    text-align: center;
+}
+.Sponspors-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.Sponspors-logo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ------------
+    sponspors-parts styles end 
+---------------*/
