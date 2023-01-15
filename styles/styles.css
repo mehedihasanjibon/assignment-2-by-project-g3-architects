@@ -254,3 +254,18 @@ main{
 /* ------------
     sponspors-parts styles end 
 ---------------*/
+
+
+.footer-section{
+    margin-top: 130px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.footer-description{
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 39px 410px;
+}
