@@ -189,12 +189,11 @@ main{
 }
 /* main styles end  */
 
-
+/* --------------
+    facts section styles start  
+----------------*/
 .facts-title{
     margin-top: 130px;
-}
-.facts-parts{
-    margin-top: 100px;
 }
 .facts-title h3{
     color: #131313;
@@ -205,10 +204,14 @@ main{
     width: 542px;
     margin-top: 10px;
 }
+
 .facts-parts{
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+.facts-parts{
+    margin-top: 100px;
 }
 .facts-items{
     border: 1px solid #FF900E;
@@ -225,6 +228,7 @@ main{
     font-weight: 600;
     font-size: 20px;
 }
+/* facts section style end  */
 
 /*--------------
     sponspors-parts styles start 
